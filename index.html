@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mapa de Ocorrências</title>
+    <title>Mapa de Ocorrências de espécies</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
     <style>
         #map { height: 400px; }
 
@@ -29,9 +30,16 @@
     </style>
 </head>
 <body>
+    <h1>Mapa de Ocorrências de Espécies em risco de extinção do cerrado brasileiro</h1>
+    <h2>
+        Este mapa interativo exibe a distribuição de espécies ameaçadas existentes no Cerrado brasileiro, utilizando dados de ocorrência disponibilizados pelo Global Biodiversity Information Facility (GBIF). O GBIF é uma plataforma internacional que fornece acesso aberto a dados sobre a biodiversidade em todo o mundo, permitindo pesquisas e esforços de conservação baseados em evidências científicas. Os dados utilizados neste projeto ajudam a visualizar as áreas de ocorrência das espécies, fornecendo insights valiosos para ações de preservação e estudo ambiental.
+    </h2>
     <div id="buttons-container" style="text-align: center; margin-bottom: 10px;">
-        <button id="species1">Arara Azul</button>
-        <button id="species2">Espécie 2</button>
+        <button id="species1">Arara-azul-de-lear</button>
+        <button id="species2">Lobo-Guará</button>
+        <button id="species3">Pato-Mergulhão</button>
+        <button id="species4">Tamanduá-bandeira</button>
+        <button id="species5">Onça-pintada</button>
     <div id="map"></div>
 
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>

@@ -152,7 +152,7 @@ st_write(ocorrencias_sf, "ocorrencias_panthera_onca.geojson", driver = "GeoJSON"
 
 #### Lobo guará
 
-# Buscar dados de ocorrência da onça pintada
+# Buscar dados de ocorrência 
 dados_especie <- occ_data(scientificName = "Chrysocyon brachyurus", hasCoordinate = TRUE, hasGeospatialIssue = FALSE)
 df_especie <- dados_especie$data
 
@@ -170,7 +170,7 @@ st_write(ocorrencias_sf, "ocorrencias_Chrysocyon_brachyurus.geojson", driver = "
 
 ##### Tamanduá Bandeira
 
-# Buscar dados de ocorrência da onça pintada
+# Buscar dados de ocorrência 
 dados_especie <- occ_data(scientificName = "Myrmecophaga tridactyla", hasCoordinate = TRUE, hasGeospatialIssue = FALSE)
 df_especie <- dados_especie$data
 
@@ -189,7 +189,7 @@ st_write(ocorrencias_sf, "ocorrencias_Myrmecophaga_tridactyla.geojson", driver =
 
 ####  Pato Mergulhão ( Mergus octosetaceus )
 
-# Buscar dados de ocorrência da onça pintada
+# Buscar dados de ocorrência 
 dados_especie <- occ_data(scientificName = "Mergus octosetaceus", hasCoordinate = TRUE, hasGeospatialIssue = FALSE)
 df_especie <- dados_especie$data
 

@@ -55,21 +55,25 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     document.getElementById('species1').onclick = function() {
-        loadSpeciesData('ocorrencias-arara.geojson');
+        loadSpeciesData('ocorrencias-arara.geojson'); // Arara-azul
     };
 
     document.getElementById('species2').onclick = function() {
-        loadSpeciesData('ocorrencias_species2.geojson');
+        loadSpeciesData('ocorrencias-Chrysocyon-brachyurus.geojson'); // Lobo Guará
+    };
+
+    document.getElementById('species3').onclick = function() {
+        loadSpeciesData('ocorrencias-mergus.geojson'); // Pato-Mergulhão
+    };
+
+    document.getElementById('species4').onclick = function() {
+        loadSpeciesData('ocorrencias-Myrmecophaga-tridactyla.geojson'); // Tamanduá-Bandeira
+    };
+
+    document.getElementById('species5').onclick = function() {
+        loadSpeciesData('ocorrencias_panthera_onca.geojson'); // Onça Pintada   
     };
 
 });
 
-
-document.getElementById('species1').onclick = function() {
-    loadSpeciesData('ocorrencias_araraazul.geojson'); // Altere o nome do arquivo conforme necessário
-};
-
-document.getElementById('species2').onclick = function() {
-    loadSpeciesData('ocorrencias_species2.geojson');
-};
 
