@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mapa de Ocorrências</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map { height: 400px; }
+
+        /* Estilo para os botões */
+        button {
+        background-color: #8D6E63; /* Cor de fundo dos botões */
+        color: white; /* Cor do texto */
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: all 0.3s ease 0s;
+    }
+
+    button:hover {
+        background-color: #A1887F; /* Cor de fundo dos botões ao passar o mouse */
+    }
+    </style>
+</head>
+<body>
+    <div id="buttons-container" style="text-align: center; margin-bottom: 10px;">
+        <button id="species1">Arara Azul</button>
+        <button id="species2">Espécie 2</button>
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
