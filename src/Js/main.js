@@ -48,30 +48,30 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Carregar a camada do bioma do Cerrado ao inicializar
-    addGeoJsonLayer('biome.geojson', 'biome');
+    addGeoJsonLayer('../../data/biome.geojson', 'biome');
 
     function loadSpeciesData(speciesFile) {
         addGeoJsonLayer(speciesFile, 'species');
     }
 
     document.getElementById('species1').onclick = function() {
-        loadSpeciesData('ocorrencias-arara.geojson'); // Arara-azul
+        loadSpeciesData('../../data/ocorrencias-Anodorhynchus-leari.geojson'); // Arara-azul-de-Lear
     };
 
     document.getElementById('species2').onclick = function() {
-        loadSpeciesData('ocorrencias-Chrysocyon-brachyurus.geojson'); // Lobo Guará
+        loadSpeciesData('../../data/ocorrencias-Chrysocyon-brachyurus.geojson'); // Lobo Guará
     };
 
     document.getElementById('species3').onclick = function() {
-        loadSpeciesData('ocorrencias-mergus.geojson'); // Pato-Mergulhão
+        loadSpeciesData('../../data/ocorrencias-mergus.geojson'); // Pato-Mergulhão
     };
 
     document.getElementById('species4').onclick = function() {
-        loadSpeciesData('ocorrencias-Myrmecophaga-tridactyla.geojson'); // Tamanduá-Bandeira
+        loadSpeciesData('../../data/ocorrencias-Myrmecophaga-tridactyla.geojson'); // Tamanduá-Bandeira
     };
 
     document.getElementById('species5').onclick = function() {
-        loadSpeciesData('ocorrencias_panthera_onca.geojson'); // Onça Pintada   
+        loadSpeciesData('../../data/ocorrencias_panthera_onca.geojson'); // Onça Pintada   
     };
 
 });
